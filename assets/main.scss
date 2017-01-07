@@ -3,6 +3,15 @@
 ---
 @charset "utf-8";
 
+body {
+  background-image: url(/assets/images/bg.png);
+}
+
+.masthead {
+  background-image: url(/assets/images/masthead.jpg);
+  background-size: cover;
+}
+
 .book__title {
   font-weight: bold;
 }
@@ -10,4 +19,8 @@
 .book__author {
   font-weight: lighter;
   font-size: smaller;
+}
+
+.book__img {
+  max-width: 50%;
 }

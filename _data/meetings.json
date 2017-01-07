@@ -3,28 +3,93 @@
   "img": "http://placehold.it/300x300",
   "host": "AFZ",
   "books": [{
-    "img": "http://placehold.it/100x100",
     "title": "20000 Leagues Under the Sea",
-    "author": "HG Wells",
-    "rating": 5
+    "author": "Jules Verne",
+    "rating": 5,
+    "isbn": "1512093599"
   }]
 }, {
   "title": "August 2016",
   "img": "http://placehold.it/300x300",
   "host": "Nom de Plume",
   "books": [{
-    "img": "http://placehold.it/100x100",
     "title": "Armada",
     "author": "Ernest Cline",
-    "rating": 5
+    "rating": 5,
+    "isbn": "0804137277"
   }]
 }, {
   "title": "Other 2016",
-  "host": "Anonymous",
+  "host": "Ashwin",
   "books": [{
-    "img": "http://placehold.it/100x100",
-    "title": "Armada",
-    "author": "Ernest Cline",
-    "rating": 5
+    "title": "Dr Jekyll and Mr Hyde",
+    "author": "Robert Louis Stevenson",
+    "rating": 5,
+    "isbn": "0486266885"
+  }, {
+    "title": "Frankenstein",
+    "author": "Mary Shelley",
+    "rating": 5,
+    "isbn": "0486282112"
+  }]
+}, {
+  "title": "March 2016",
+  "img": "http://placehold.it/300x300",
+  "host": "Ashwin",
+  "books": [{
+    "title": "Being Mortal",
+    "author": "Atul Gawande",
+    "rating": 5,
+    "isbn": "0805095152"
+  }]
+}, {
+  "title": "June 2016",
+  "img": "http://placehold.it/300x300",
+  "host": "Cory",
+  "books": [{
+    "title": "The Invention of Nature",
+    "author": "Andrea Wulf",
+    "rating": 5,
+    "isbn": "0345806298"
+  }]
+}, {
+  "title": "August 2015",
+  "img": "http://placehold.it/300x300",
+  "host": "DC",
+  "books": [{
+    "title": "Hard Luck Hank: Screw the Galaxy",
+    "author": "Steven Campbell ",
+    "rating": 5,
+    "isbn": "153530376X"
+  }]
+}, {
+  "title": "August 2015",
+  "img": "http://placehold.it/300x300",
+  "host": "AFZ",
+  "books": [{
+    "title": "The Secret History",
+    "author": "Donna Tartt",
+    "rating": 5,
+    "isbn": "1400031702"
+  }]
+}, {
+  "title": "June 2015",
+  "img": "http://placehold.it/300x300",
+  "host": "AFZ",
+  "books": [{
+    "title": "A Canticle for Lebowitz",
+    "author": "Walter Miller Jr",
+    "rating": 5,
+    "isbn": "0553273817"
+  }]
+}, {
+  "title": "April 2015",
+  "img": "http://placehold.it/300x300",
+  "host": "Nom de Plume",
+  "books": [{
+    "title": "The Martian Chronicles",
+    "author": "Ray Bradbury",
+    "rating": 5,
+    "isbn": "1451678193"
   }]
 }]

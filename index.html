@@ -17,8 +17,12 @@ layout: default
 
       <ul class="list-unstyled books">
         {% for book in meeting.books %}
-          <li class="media">
-            <img class="mr-3" src="{{book.img}}" alt="{{book.title}}">
+          <li class="media mb-2">
+            {% if book.img %}
+              <img class="book__img mr-3" src="{{book.img}}" alt="{{book.title}}">
+            {% elsif book.isbn %}
+              <img class="book__img mr-3" src="http://images.amazon.com/images/P/{{book.isbn}}.01.LZZZZZZ.jpg" alt="{{book.title}}">
+            {% endif %}
             <div class="media-body">
               <div class="book__title">{{book.title}}</div>
               <div class="book__author">{{book.author}}</div>
