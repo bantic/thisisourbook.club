@@ -1,0 +1,30 @@
+[{
+  "title": "December 2016",
+  "img": "http://placehold.it/300x300",
+  "host": "AFZ",
+  "books": [{
+    "img": "http://placehold.it/100x100",
+    "title": "20000 Leagues Under the Sea",
+    "author": "HG Wells",
+    "rating": 5
+  }]
+}, {
+  "title": "August 2016",
+  "img": "http://placehold.it/300x300",
+  "host": "Nom de Plume",
+  "books": [{
+    "img": "http://placehold.it/100x100",
+    "title": "Armada",
+    "author": "Ernest Cline",
+    "rating": 5
+  }]
+}, {
+  "title": "Other 2016",
+  "host": "Anonymous",
+  "books": [{
+    "img": "http://placehold.it/100x100",
+    "title": "Armada",
+    "author": "Ernest Cline",
+    "rating": 5
+  }]
+}]
