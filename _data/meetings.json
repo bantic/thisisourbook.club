@@ -1,4 +1,19 @@
 [{
+  "title": "January 2017",
+  "img": "http://placehold.it/300x300",
+  "host": "Gabe",
+  "books": [{
+    "title": "The Prophet",
+    "author": "Kahlil Gibran",
+    "rating": 5,
+    "isbn": "0394404289"
+  }, {
+    "title": "The Art of War",
+    "author": "Sun Tzu",
+    "rating": 5,
+    "isbn": "1599869772"
+  }]
+}, {
   "title": "December 2016",
   "img": "http://placehold.it/300x300",
   "host": "AFZ",
@@ -9,9 +24,9 @@
     "isbn": "1512093599"
   }]
 }, {
-  "title": "August 2016",
+  "title": "September 2016?",
   "img": "http://placehold.it/300x300",
-  "host": "Nom de Plume",
+  "host": "Dan S",
   "books": [{
     "title": "Armada",
     "author": "Ernest Cline",
@@ -19,7 +34,7 @@
     "isbn": "0804137277"
   }]
 }, {
-  "title": "Other 2016",
+  "title": "August 2016",
   "host": "Ashwin",
   "books": [{
     "title": "Dr Jekyll and Mr Hyde",
@@ -33,16 +48,6 @@
     "isbn": "0486282112"
   }]
 }, {
-  "title": "March 2016",
-  "img": "http://placehold.it/300x300",
-  "host": "Ashwin",
-  "books": [{
-    "title": "Being Mortal",
-    "author": "Atul Gawande",
-    "rating": 5,
-    "isbn": "0805095152"
-  }]
-}, {
   "title": "June 2016",
   "img": "http://placehold.it/300x300",
   "host": "Cory",
@@ -53,7 +58,17 @@
     "isbn": "0345806298"
   }]
 }, {
-  "title": "August 2015",
+  "title": "March 2016",
+  "img": "http://placehold.it/300x300",
+  "host": "Ashwin",
+  "books": [{
+    "title": "Being Mortal",
+    "author": "Atul Gawande",
+    "rating": 5,
+    "isbn": "0805095152"
+  }]
+}, {
+  "title": "?",
   "img": "http://placehold.it/300x300",
   "host": "DC",
   "books": [{
@@ -65,7 +80,7 @@
 }, {
   "title": "August 2015",
   "img": "http://placehold.it/300x300",
-  "host": "AFZ",
+  "host": "Dan S?",
   "books": [{
     "title": "The Secret History",
     "author": "Donna Tartt",
@@ -75,7 +90,7 @@
 }, {
   "title": "June 2015",
   "img": "http://placehold.it/300x300",
-  "host": "AFZ",
+  "host": "Gabe?",
   "books": [{
     "title": "A Canticle for Lebowitz",
     "author": "Walter Miller Jr",
@@ -85,7 +100,7 @@
 }, {
   "title": "April 2015",
   "img": "http://placehold.it/300x300",
-  "host": "Nom de Plume",
+  "host": "Dan S?",
   "books": [{
     "title": "The Martian Chronicles",
     "author": "Ray Bradbury",
