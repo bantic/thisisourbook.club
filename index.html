@@ -6,7 +6,7 @@ layout: default
 ---
 
 {% for meeting in site.data.meetings %}
-  <div class="card mb-3">
+  <div class="card mb-4">
     {% if meeting.img %}
       <img class="meeting__img card-img-top" src="{{meeting.img}}" alt="{{meeting.title}}">
     {% endif %}
@@ -15,18 +15,24 @@ layout: default
       <h4 class="card-title">{{meeting.title}}</h4>
       <p class="book__host">Host: {{meeting.host}}</p>
 
-      <ul class="list-unstyled books">
+      <ul class="list-unstyled books row">
         {% for book in meeting.books %}
-          <li class="media mb-2">
+          <li class="media col-md-6 mb-2">
             {% if book.img %}
               <img class="book__img mr-3" src="{{book.img}}" alt="{{book.title}}">
             {% elsif book.isbn %}
-              <img class="book__img mr-3" src="http://images.amazon.com/images/P/{{book.isbn}}.01.LZZZZZZ.jpg" alt="{{book.title}}">
+              <img class="book__img mr-3" src="//images.amazon.com/images/P/{{book.isbn}}.01.LZZZZZZ.jpg" alt="{{book.title}}">
             {% endif %}
             <div class="media-body">
               <div class="book__title">{{book.title}}</div>
               <div class="book__author">{{book.author}}</div>
-              <div class="book__rating">{{book.rating}}/5</div>
+              <div class="book__rating">
+                <img class="book__rating_star" src="/assets/images/icons/book-star.svg">
+                <img class="book__rating_star" src="/assets/images/icons/book-star.svg">
+                <img class="book__rating_star" src="/assets/images/icons/book-star.svg">
+                <img class="book__rating_star" src="/assets/images/icons/book-no-star.svg">
+                <img class="book__rating_star" src="/assets/images/icons/book-no-star.svg">
+              </div>
             </div>
           </li>
         {% endfor %}

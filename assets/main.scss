@@ -29,3 +29,15 @@ body {
   object-fit: contain;
   background-color: gray;
 }
+
+.book__rating_star {
+  width: 1em;
+  height: 1em;
+}
+
+@media (min-width: 576px) {
+  .book__rating_star {
+    width: 1.5em;
+    height: 1.5em;
+  }
+}
