@@ -23,11 +23,17 @@ body {
 
 .book__img {
   max-width: 50%;
+  box-shadow: 2px 2px 6px #CCC;
 }
 
 .meeting__img {
   object-fit: contain;
   background-color: gray;
+}
+
+.meeting__book-icon {
+  width: 75px;
+  height: 75px;
 }
 
 .book__rating_star {

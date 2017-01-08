@@ -12,8 +12,19 @@ layout: default
     {% endif %}
 
     <div class="card-block">
-      <h4 class="card-title">{{meeting.title}}</h4>
-      <p class="book__host">Host: {{meeting.host}}</p>
+      <div class="media mb-3">
+        <div class="mr-3 meeting__book-icon"></div>
+        <!--
+          The SVG is added by Vivus when the above div scrolls into view
+          <img class="mr-3 meeting__book-icon" src="/assets/images/icons/book-lines.svg">
+        -->
+
+        <div class="media-body">
+          <h4 class="card-title">{{meeting.title}}</h4>
+          <p class="book__host">Host: {{meeting.host}}</p>
+        </div>
+      </div>
+
 
       <ul class="list-unstyled books row">
         {% for book in meeting.books %}
