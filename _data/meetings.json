@@ -15,7 +15,7 @@
   }]
 }, {
   "title": "December 2016",
-  "img": "http://placehold.it/300x300",
+  "img": "/assets/images/books/20000_leagues.jpg",
   "host": "AFZ",
   "books": [{
     "title": "20000 Leagues Under the Sea",
@@ -90,7 +90,7 @@
 }, {
   "title": "June 2015",
   "img": "http://placehold.it/300x300",
-  "host": "Gabe?",
+  "host": "AFZ",
   "books": [{
     "title": "A Canticle for Lebowitz",
     "author": "Walter Miller Jr",
@@ -100,7 +100,7 @@
 }, {
   "title": "April 2015",
   "img": "http://placehold.it/300x300",
-  "host": "Dan S?",
+  "host": "Gabe",
   "books": [{
     "title": "The Martian Chronicles",
     "author": "Ray Bradbury",

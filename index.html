@@ -8,7 +8,7 @@ layout: default
 {% for meeting in site.data.meetings %}
   <div class="card mb-3">
     {% if meeting.img %}
-      <img class="card-img-top" src="{{meeting.img}}" alt="{{meeting.title}}">
+      <img class="meeting__img card-img-top" src="{{meeting.img}}" alt="{{meeting.title}}">
     {% endif %}
 
     <div class="card-block">

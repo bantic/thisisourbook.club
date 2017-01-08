@@ -24,3 +24,8 @@ body {
 .book__img {
   max-width: 50%;
 }
+
+.meeting__img {
+  object-fit: contain;
+  background-color: gray;
+}
