@@ -15,7 +15,7 @@
   }]
 }, {
   "title": "December 2016",
-  "img": "/assets/images/books/20000_leagues.jpg",
+  "img": "/assets/images/meetings/20000_leagues.jpg",
   "host": "AFZ",
   "books": [{
     "title": "20000 Leagues Under the Sea",
@@ -24,8 +24,8 @@
     "isbn": "1512093599"
   }]
 }, {
-  "title": "September 2016?",
-  "img": "http://placehold.it/300x300",
+  "title": "June 2016",
+  "img": "/assets/images/meetings/armada.jpg",
   "host": "Dan S",
   "books": [{
     "title": "Armada",
