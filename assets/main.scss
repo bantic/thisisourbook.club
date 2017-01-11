@@ -1,7 +1,8 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
-@charset "utf-8";
+
+@import "bootstrap/bootstrap";
+@import "variables";
 
 body {
   background-image: url(/assets/images/bg.png);
