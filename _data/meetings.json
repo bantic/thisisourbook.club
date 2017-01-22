@@ -1,6 +1,5 @@
 [{
   "title": "January 2017",
-  "img": "http://placehold.it/300x300",
   "host": "Gabe",
   "books": [{
     "title": "The Prophet",
@@ -24,18 +23,9 @@
     "isbn": "1512093599"
   }]
 }, {
-  "title": "June 2016",
-  "img": "/assets/images/meetings/armada.jpg",
-  "host": "Dan S",
-  "books": [{
-    "title": "Armada",
-    "author": "Ernest Cline",
-    "rating": 5,
-    "isbn": "0804137277"
-  }]
-}, {
   "title": "August 2016",
   "host": "Ashwin",
+  "img": "/assets/images/meetings/frankenstein.jpg",
   "books": [{
     "title": "Dr Jekyll and Mr Hyde",
     "author": "Robert Louis Stevenson",
@@ -49,7 +39,16 @@
   }]
 }, {
   "title": "June 2016",
-  "img": "http://placehold.it/300x300",
+  "img": "/assets/images/meetings/armada.jpg",
+  "host": "Dan S",
+  "books": [{
+    "title": "Armada",
+    "author": "Ernest Cline",
+    "rating": 5,
+    "isbn": "0804137277"
+  }]
+}, {
+  "title": "April 2016",
   "host": "Cory",
   "books": [{
     "title": "The Invention of Nature",
@@ -59,7 +58,6 @@
   }]
 }, {
   "title": "March 2016",
-  "img": "http://placehold.it/300x300",
   "host": "Ashwin",
   "books": [{
     "title": "Being Mortal",
@@ -69,7 +67,6 @@
   }]
 }, {
   "title": "?",
-  "img": "http://placehold.it/300x300",
   "host": "DC",
   "books": [{
     "title": "Hard Luck Hank: Screw the Galaxy",
@@ -79,7 +76,6 @@
   }]
 }, {
   "title": "August 2015",
-  "img": "http://placehold.it/300x300",
   "host": "Dan S?",
   "books": [{
     "title": "The Secret History",
@@ -89,7 +85,6 @@
   }]
 }, {
   "title": "June 2015",
-  "img": "http://placehold.it/300x300",
   "host": "AFZ",
   "books": [{
     "title": "A Canticle for Lebowitz",
@@ -99,7 +94,6 @@
   }]
 }, {
   "title": "April 2015",
-  "img": "http://placehold.it/300x300",
   "host": "Gabe",
   "books": [{
     "title": "The Martian Chronicles",

@@ -9,6 +9,13 @@ After building (`jekyll build` should do it, or it will be built if you are
 running `jekyll serve`),
 use surge: `surge _site`
 
+### Adding a meeting image
+
+Cp the image into `assets/images/originals`
+Mv the image into `assets/images/meetings`
+Edit `_data/meetings.json` and add the path to the asset
+Adjust image size to about 700x400 px
+
 
 ### attribution:
 
