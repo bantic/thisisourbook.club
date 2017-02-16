@@ -12,6 +12,13 @@ h1 {
   font-family: 'Taviraj', serif;
 }
 
+.title {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #6B7072;
+  background-color: rgba(234, 234, 234, 0.47);
+}
+
 .masthead {
   background-image: url(/assets/images/masthead.jpg);
   background-size: cover;
@@ -52,4 +59,9 @@ h1 {
     width: 1.5em;
     height: 1.5em;
   }
+}
+
+.card-title {
+  text-transform: uppercase;
+  color: #6B7072;
 }
