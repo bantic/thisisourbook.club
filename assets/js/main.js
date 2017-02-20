@@ -8,13 +8,13 @@ $(document).ready(function() {
 
 function setupOpacityIncreasers() {
   var selectors = {
-    enter: '.--opacity-will-increase'
+    enter: '.opacity-will-increase'
   };
   var cssClasses = {
-    didEnter: '--opacity-did-increase'
+    didEnter: 'opacity-did-increase'
   };
-  var delay = 500;
-  
+  var delay = 250;
+
   inView(selectors.enter).
     on('enter', function(el) {
       setTimeout(function() {
@@ -53,10 +53,10 @@ function setupStarClipPaths() {
 
 function setupFadeIns() {
   var selectors = {
-    wrapper: '.--fade-in-wrapper',     // find when this comes into view
-    inner: '.--fade-in-inner'          // and fade this in
+    wrapper: '.fade-in-wrapper',     // find when this comes into view
+    inner: '.fade-in-inner'          // and fade this in
   };
-  var delay = 500;
+  var delay = 250;
   var duration = 1000;
 
   inView(selectors.wrapper).
@@ -68,27 +68,24 @@ function setupFadeIns() {
 function setupLineAnimations() {
   var bookLinesPath = '/assets/images/icons/book-lines.svg';
   var cssClasses = {
-    doneAnimating: '--done-animating',
-    isAnimating:   '--is-animating'
+    doneAnimating: 'svg--done-animating',
+    isAnimating:   'svg--is-animating'
   };
   var selectors = {
     bookIcon: '.meeting__book-icon'
   };
-  var delay = 500;
 
   inView(selectors.bookIcon).
     on('enter', function(el) {
-      setTimeout(function() {
-        if (el.classList.contains(cssClasses.doneAnimating) ||
-            el.classList.contains(cssClasses.isAnimating)) {
-              return;
-        } else {
-          el.classList.add(cssClasses.isAnimating);
-        }
-        var anim = new Vivus(el, { file: bookLinesPath}, function _doneAnimating() {
-          el.classList.remove(cssClasses.isAnimating);
-          el.classList.add(cssClasses.doneAnimating);
-        });
-      }, delay);
+      if (el.classList.contains(cssClasses.doneAnimating) ||
+          el.classList.contains(cssClasses.isAnimating)) {
+            return;
+      } else {
+        el.classList.add(cssClasses.isAnimating);
+      }
+      var anim = new Vivus(el, { file: bookLinesPath}, function _doneAnimating() {
+        el.classList.remove(cssClasses.isAnimating);
+        el.classList.add(cssClasses.doneAnimating);
+      });
     });
 }

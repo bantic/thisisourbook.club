@@ -49,17 +49,17 @@ h1 {
   height: 75px;
 }
 
-.--fade-in-inner {
+.fade-in-inner {
   /* shown using the setupFadeIns() function */
   display: none;
 }
 
-.--opacity-will-increase {
+.opacity-will-increase {
   opacity: 0.5;
   transition: opacity 1s;
 
   /* added with the setupOpacityIncreasers() function */
-  &.--opacity-did-increase {
+  &.opacity-did-increase {
     opacity: 1.0;
   }
 }
