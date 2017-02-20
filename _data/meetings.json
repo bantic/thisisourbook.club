@@ -1,5 +1,6 @@
 [{
   "title": "February 2017",
+  "img": "/assets/images/meetings/prophet-and-art-of-war.jpg",
   "host": "Gabe",
   "books": [{
     "title": "The Prophet",
@@ -40,7 +41,7 @@
 }, {
   "title": "June 2016",
   "img": "/assets/images/meetings/armada.jpg",
-  "host": "Dan S",
+  "host": "Dan",
   "books": [{
     "title": "Armada",
     "author": "Ernest Cline",
@@ -76,7 +77,7 @@
   }]
 }, {
   "title": "August 2015",
-  "host": "Dan S?",
+  "host": "Dan",
   "books": [{
     "title": "The Secret History",
     "author": "Donna Tartt",
