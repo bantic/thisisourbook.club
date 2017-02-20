@@ -3,7 +3,25 @@ $(document).ready(function() {
   setupLineAnimations();
   setupStarClipPaths();
   setupFadeIns();
+  setupOpacityIncreasers();
 });
+
+function setupOpacityIncreasers() {
+  var selectors = {
+    enter: '.--opacity-will-increase'
+  };
+  var cssClasses = {
+    didEnter: '--opacity-did-increase'
+  };
+  var delay = 500;
+  
+  inView(selectors.enter).
+    on('enter', function(el) {
+      setTimeout(function() {
+        $(el).addClass(cssClasses.didEnter);
+      }, delay);
+    });
+}
 
 function setupStarClipPaths() {
   var maxRating = 5;
@@ -36,12 +54,14 @@ function setupStarClipPaths() {
 function setupFadeIns() {
   var selectors = {
     wrapper: '.--fade-in-wrapper',     // find when this comes into view
-    inner: '.--fade-in-inner'
+    inner: '.--fade-in-inner'          // and fade this in
   };
+  var delay = 500;
+  var duration = 1000;
 
   inView(selectors.wrapper).
     on('enter', function(el) {
-      $(el).find(selectors.inner).fadeIn(1000);
+      $(el).find(selectors.inner).delay(delay).fadeIn(duration);
     });
 }
 
@@ -54,18 +74,21 @@ function setupLineAnimations() {
   var selectors = {
     bookIcon: '.meeting__book-icon'
   };
+  var delay = 500;
 
   inView(selectors.bookIcon).
     on('enter', function(el) {
-      if (el.classList.contains(cssClasses.doneAnimating) ||
-          el.classList.contains(cssClasses.isAnimating)) {
-            return;
-      } else {
-        el.classList.add(cssClasses.isAnimating);
-      }
-      var anim = new Vivus(el, { file: bookLinesPath}, function _doneAnimating() {
-        el.classList.remove(cssClasses.isAnimating);
-        el.classList.add(cssClasses.doneAnimating);
-      });
+      setTimeout(function() {
+        if (el.classList.contains(cssClasses.doneAnimating) ||
+            el.classList.contains(cssClasses.isAnimating)) {
+              return;
+        } else {
+          el.classList.add(cssClasses.isAnimating);
+        }
+        var anim = new Vivus(el, { file: bookLinesPath}, function _doneAnimating() {
+          el.classList.remove(cssClasses.isAnimating);
+          el.classList.add(cssClasses.doneAnimating);
+        });
+      }, delay);
     });
 }

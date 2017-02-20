@@ -27,14 +27,14 @@ layout: default
         {% for book in meeting.books %}
           <li class="media col-md-6 mb-2">
             {% if book.img %}
-              <img class="book__img mr-3" src="{{book.img}}" alt="{{book.title}}">
+              <img class="book__img mr-3 --opacity-will-increase" src="{{book.img}}" alt="{{book.title}}">
             {% elsif book.isbn %}
-              <img class="book__img mr-3" src="//images.amazon.com/images/P/{{book.isbn}}.01.LZZZZZZ.jpg" alt="{{book.title}}">
+              <img class="book__img mr-3 --opacity-will-increase" src="//images.amazon.com/images/P/{{book.isbn}}.01.LZZZZZZ.jpg" alt="{{book.title}}">
             {% endif %}
             <div class="media-body">
               <div class="book__title">{{book.title}}</div>
               <div class="book__author">{{book.author}}</div>
-              <div class="book__rating --fade-in-wrapper" data-book-rating="{{book.rating}}">
+              <div class="book__rating --fade-in-wrapper" title="Rating: {{book.rating}}" data-book-rating="{{book.rating}}">
                 <div class="--fade-in-inner">
                   <div class="book__rating--background">
                     {% for i in (1..5) %}
