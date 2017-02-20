@@ -5,12 +5,12 @@
   "books": [{
     "title": "The Prophet",
     "author": "Kahlil Gibran",
-    "rating": 5,
+    "rating": 3.16,
     "isbn": "0394404289"
   }, {
     "title": "The Art of War",
     "author": "Sun Tzu",
-    "rating": 5,
+    "rating": 3.16,
     "isbn": "1599869772"
   }]
 }, {
@@ -20,7 +20,7 @@
   "books": [{
     "title": "20000 Leagues Under the Sea",
     "author": "Jules Verne",
-    "rating": 5,
+    "rating": 2.83,
     "isbn": "1512093599"
   }]
 }, {
@@ -30,12 +30,12 @@
   "books": [{
     "title": "Dr Jekyll and Mr Hyde",
     "author": "Robert Louis Stevenson",
-    "rating": 5,
+    "rating": 3.33,
     "isbn": "0486266885"
   }, {
     "title": "Frankenstein",
     "author": "Mary Shelley",
-    "rating": 5,
+    "rating": 3,
     "isbn": "0486282112"
   }]
 }, {
@@ -45,7 +45,7 @@
   "books": [{
     "title": "Armada",
     "author": "Ernest Cline",
-    "rating": 5,
+    "rating": 2.5,
     "isbn": "0804137277"
   }]
 }, {
@@ -54,7 +54,7 @@
   "books": [{
     "title": "The Invention of Nature",
     "author": "Andrea Wulf",
-    "rating": 5,
+    "rating": 2.5,
     "isbn": "0345806298"
   }]
 }, {
@@ -72,7 +72,7 @@
   "books": [{
     "title": "Hard Luck Hank: Screw the Galaxy",
     "author": "Steven Campbell ",
-    "rating": 5,
+    "rating": 1.83,
     "isbn": "153530376X"
   }]
 }, {
@@ -81,7 +81,7 @@
   "books": [{
     "title": "The Secret History",
     "author": "Donna Tartt",
-    "rating": 5,
+    "rating": 4.33,
     "isbn": "1400031702"
   }]
 }, {
@@ -90,7 +90,7 @@
   "books": [{
     "title": "A Canticle for Lebowitz",
     "author": "Walter Miller Jr",
-    "rating": 5,
+    "rating": 3.16,
     "isbn": "0553273817"
   }]
 }, {
@@ -99,7 +99,7 @@
   "books": [{
     "title": "The Martian Chronicles",
     "author": "Ray Bradbury",
-    "rating": 5,
+    "rating": 3.83,
     "isbn": "1451678193"
   }]
 }]

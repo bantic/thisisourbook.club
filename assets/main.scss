@@ -49,19 +49,43 @@ h1 {
   height: 75px;
 }
 
-.book__rating_star {
-  width: 1em;
-  height: 1em;
+.--fade-in-inner {
+  /* shown using the setupFadeIns() method */
+  display: none;
 }
 
-@media (min-width: 576px) {
+.book__rating {
+  width: 95px;
+  position: relative;
+
   .book__rating_star {
-    width: 1.5em;
-    height: 1.5em;
+    width: 15px;
+    height: 15px;
+  }
+
+  .book__rating--background, .book__rating--foreground {
+    position: absolute;
+    top: 0;
+    left: 0;
   }
 }
 
-.card-title {
-  text-transform: uppercase;
-  color: #6B7072;
+@media (min-width: 576px) {
+  .book__rating {
+    width: 145px;
+
+    .book__rating_star {
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+
+.card {
+  background: #EDEDED;
+
+  .card-title {
+    text-transform: uppercase;
+    color: #6B7072;
+  }
 }
