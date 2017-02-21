@@ -52,6 +52,12 @@ layout: default
           </li>
         {% endfor %}
       </ul>
+
+      {% if meeting.comments %}
+        <p>
+          {{meeting.comments}}
+        </p>
+      {% endif %}
     </div>
   </div>
 {% endfor %}

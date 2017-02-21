@@ -9,14 +9,18 @@ body {
 }
 
 h1 {
-  font-family: 'Taviraj', serif;
+  font-family: $title-font-stack;
 }
 
 .title {
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #6B7072;
-  background-color: rgba(234, 234, 234, 0.47);
+  color: $title-color;
+  background-color: $title-bg-color;
+}
+
+p.lead {
+  background-color: $title-bg-color;
 }
 
 .masthead {
