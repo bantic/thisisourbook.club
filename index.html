@@ -5,7 +5,9 @@ layout: default
 {% for meeting in site.data.meetings %}
   <div class="card mb-4">
     {% if meeting.img %}
-      <img class="meeting__img card-img-top" src="{{meeting.img}}" alt="{{meeting.title}}">
+      <div class="meeting__img--wrapper">
+        <img class="meeting__img--img card-img-top" src="{{meeting.img}}" alt="{{meeting.title}}">
+      </div>
     {% endif %}
 
     <div class="card-block">

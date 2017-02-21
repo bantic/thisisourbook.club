@@ -4,7 +4,51 @@ $(document).ready(function() {
   setupStarClipPaths();
   setupFadeIns();
   setupOpacityIncreasers();
+  setupImageMovement();
 });
+
+function setImageHeights() {
+  var wigglePercentage = 0.15;
+
+  $('.meeting__img--img').each(function() {
+    var height = $(this).height();
+    var wiggle = wigglePercentage * height;
+    $(this).parent('.meeting__img--wrapper').css({height: (height - wiggle) + 'px'});
+    $(this).
+      css({'margin-top': (-0.5*wiggle) + 'px'}).
+      data('img-wiggle', wiggle);
+  });
+}
+
+function setupImageMovement() {
+  setImageHeights();
+  $(window).on('resize', setImageHeights);
+
+  $(window).on('scroll', function() {
+    var innerHeight = window.innerHeight;
+    var scrollTop = document.body.scrollTop;
+    var screenBottom = innerHeight;
+
+    $('.meeting__img--img').each(function() {
+      var wiggle = parseFloat( $(this).data('img-wiggle') );
+      var dims = this.getBoundingClientRect();
+      var midHeight = dims.top + dims.height/2;
+
+      var percentage;
+
+      if (midHeight < 0) {
+        percentage = 0;
+      } else if (midHeight > screenBottom) {
+        percentage = 1;
+      } else {
+        var percentage = midHeight / screenBottom;
+      }
+
+      var marginTop = (-1*wiggle) + (percentage * wiggle);
+      $(this).css({'margin-top': marginTop});
+    });
+  });
+}
 
 function setupOpacityIncreasers() {
   var selectors = {
