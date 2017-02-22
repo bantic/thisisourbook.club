@@ -7,12 +7,26 @@ $(document).ready(function() {
   setupImageMovement();
 });
 
+function debounce(func, wait, immediate) {
+  var timeout;
+  return function() {
+    var context = this, args = arguments;
+    clearTimeout(timeout);
+    timeout = setTimeout(function() {
+      timeout = null;
+      if (!immediate) func.apply(context, args);
+    }, wait);
+    if (immediate && !timeout) func.apply(context, args);
+  };
+}
+
 function setImageHeights() {
   var wigglePercentage = 0.15;
+  var maxWiggle = 100;
 
   $('.meeting__img--img').each(function() {
     var height = $(this).height();
-    var wiggle = wigglePercentage * height;
+    var wiggle = Math.min(maxWiggle, wigglePercentage * height);
     $(this).parent('.meeting__img--wrapper').css({height: (height - wiggle) + 'px'});
     $(this).
       css({'margin-top': (-0.5*wiggle) + 'px'}).
@@ -22,31 +36,32 @@ function setImageHeights() {
 
 function setupImageMovement() {
   setImageHeights();
-  $(window).on('resize', setImageHeights);
+  $(window).on('resize', debounce(setImageHeights, 100));
+  $(window).on('scroll', scrollHandler);
+}
 
-  $(window).on('scroll', function() {
-    var innerHeight = window.innerHeight;
-    var scrollTop = document.body.scrollTop;
-    var screenBottom = innerHeight;
+function scrollHandler() {
+  var innerHeight = window.innerHeight;
+  var scrollTop = document.body.scrollTop;
+  var screenBottom = innerHeight;
 
-    $('.meeting__img--img').each(function() {
-      var wiggle = parseFloat( $(this).data('img-wiggle') );
-      var dims = this.getBoundingClientRect();
-      var midHeight = dims.top + dims.height/2;
+  $('.meeting__img--img').each(function() {
+    var wiggle = parseFloat( $(this).data('img-wiggle') );
+    var dims = this.getBoundingClientRect();
+    var midHeight = dims.top + dims.height/2;
 
-      var percentage;
+    var percentage;
 
-      if (midHeight < 0) {
-        percentage = 0;
-      } else if (midHeight > screenBottom) {
-        percentage = 1;
-      } else {
-        var percentage = midHeight / screenBottom;
-      }
+    if (midHeight < 0) {
+      percentage = 0;
+    } else if (midHeight > screenBottom) {
+      percentage = 1;
+    } else {
+      var percentage = midHeight / screenBottom;
+    }
 
-      var marginTop = (-1*wiggle) + (percentage * wiggle);
-      $(this).css({'margin-top': marginTop});
-    });
+    var marginTop = (-1*wiggle) + (percentage * wiggle);
+    $(this).css({'margin-top': marginTop});
   });
 }
 
