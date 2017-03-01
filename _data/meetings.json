@@ -1,4 +1,12 @@
 [{
+  "title": "April 2017",
+  "host": "Cory",
+  "books": [{
+    "title": "The Sellout",
+    "author": "Paul Beatty",
+    "isbn": "1250083257"
+  }]
+},{
   "title": "February 2017",
   "img": "/assets/images/meetings/prophet-and-art-of-war.jpg",
   "host": "Gabe",

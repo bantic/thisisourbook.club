@@ -16,6 +16,10 @@ Mv the image into `assets/images/meetings`
 Edit `_data/meetings.json` and add the path to the asset
 Adjust image size to about 700x400 px
 
+### adding new books
+
+Use http://www.isbnsearch.org/search?s=armada to find isbns
+
 
 ### attribution:
 
