@@ -1,10 +1,12 @@
 [{
   "title": "April 2017",
   "host": "Cory",
+  "img": "/assets/images/meetings/sellout.jpg",
   "books": [{
     "title": "The Sellout",
     "author": "Paul Beatty",
-    "isbn": "1250083257"
+    "isbn": "1250083257",
+    "rating": 3.7
   }]
 },{
   "title": "February 2017",
