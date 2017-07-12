@@ -22,6 +22,12 @@ Adjust image size to about 700x400 px
  * Copy the ISBN (10)
  * Add a new meeting in data/meetings.json
 
+### layout
+
+ * The main index template is at index.html.
+ * The built site is in `_site`
+ * The assets (including css and js) go in assets/
+
 
 ### attribution:
 

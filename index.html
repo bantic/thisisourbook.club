@@ -36,20 +36,22 @@ layout: default
             <div class="media-body">
               <div class="book__title">{{book.title}}</div>
               <div class="book__author">{{book.author}}</div>
-              <div class="book__rating fade-in-wrapper" title="Rating: {{book.rating}}" data-book-rating="{{book.rating}}">
-                <div class="fade-in-inner">
-                  <div class="book__rating--background">
-                    {% for i in (1..5) %}
-                      <img class="book__rating_star" src="/assets/images/icons/book-no-star.svg">
-                    {% endfor %}
-                  </div>
-                  <div class="book__rating--foreground">
-                    {% for i in (1..5) %}
-                      <img class="book__rating_star" src="/assets/images/icons/book-star.svg">
-                    {% endfor %}
+              {% if book.rating %}
+                <div class="book__rating fade-in-wrapper" title="Rating: {{book.rating}}" data-book-rating="{{book.rating}}">
+                  <div class="fade-in-inner">
+                    <div class="book__rating--background">
+                      {% for i in (1..5) %}
+                        <img class="book__rating_star" src="/assets/images/icons/book-no-star.svg">
+                      {% endfor %}
+                    </div>
+                    <div class="book__rating--foreground">
+                      {% for i in (1..5) %}
+                        <img class="book__rating_star" src="/assets/images/icons/book-star.svg">
+                      {% endfor %}
+                    </div>
                   </div>
                 </div>
-              </div>
+              {% endif %}
             </div>
           </li>
         {% endfor %}
