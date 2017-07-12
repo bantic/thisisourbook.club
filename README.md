@@ -18,7 +18,9 @@ Adjust image size to about 700x400 px
 
 ### adding new books
 
-Use http://www.isbnsearch.org/search?s=armada to find isbns
+ * Use http://www.isbnsearch.org/search?s=armada to find isbns.
+ * Copy the ISBN (10)
+ * Add a new meeting in data/meetings.json
 
 
 ### attribution:

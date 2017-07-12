@@ -1,4 +1,14 @@
-[{
+[
+{
+  "title": "August 2017",
+  "host": "Devin",
+  "books": [{
+    "title": "Player Piano",
+    "author": "Kurt Vonnegut",
+    "isbn": "0385333781"
+  }]
+},
+{
   "title": "April 2017",
   "host": "Cory",
   "img": "/assets/images/meetings/sellout.jpg",
@@ -8,7 +18,7 @@
     "isbn": "1250083257",
     "rating": 3.7
   }]
-},{
+}, {
   "title": "February 2017",
   "img": "/assets/images/meetings/prophet-and-art-of-war.jpg",
   "host": "Gabe",
