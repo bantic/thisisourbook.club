@@ -1,11 +1,22 @@
 [
 {
+  "title": "October 2017",
+  "host": "Ashwin",
+  "books": [{
+    "title": "Digital Gold",
+    "author": "Nathaniel Popper",
+    "isbn": "006236250X"
+  }]
+},
+{
   "title": "August 2017",
   "host": "Devin",
+  "img": "/assets/images/meetings/player_piano.jpg",
   "books": [{
     "title": "Player Piano",
     "author": "Kurt Vonnegut",
-    "isbn": "0385333781"
+    "isbn": "0385333781",
+    "rating": 3.7
   }]
 },
 {
