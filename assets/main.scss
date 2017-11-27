@@ -81,8 +81,12 @@ p.lead {
 
 .book__rating {
   width: 95px;
-  position: relative;
   letter-spacing: -4px; /* helps to make sure star icons have minimal space between */
+
+  .book__rating_inner {
+    position: relative;
+    height: 2em; /* must have height otherwise relative-position parent div collapses */
+  }
 
   .book__rating_star {
     width: 15px;

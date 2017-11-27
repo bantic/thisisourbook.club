@@ -1,11 +1,24 @@
 [
 {
+  "title": "December 2017",
+  "host": "Dan",
+  "books": [{
+    "title": "I Know Why The Caged Bird Sings",
+    "author": "Maya Angelou",
+    "isbn": "0345514408"
+  }]
+},
+{
   "title": "October 2017",
   "host": "Ashwin",
   "books": [{
     "title": "Digital Gold",
     "author": "Nathaniel Popper",
-    "isbn": "006236250X"
+    "isbn": "006236250X",
+    "ratings": {
+      "book": 4,
+      "discussion": 4.6
+    }
   }]
 },
 {
