@@ -54,6 +54,9 @@ layout: default
               {% endif %}
               {% if book.ratings %}
                 <div class="book__rating fade-in-wrapper" title="Book Rating: {{book.ratings.book}}" data-book-rating="{{book.ratings.book}}">
+                  <div class="book__rating--label">
+                    Book
+                  </div>
                   <div class="book__rating_inner fade-in-inner">
                     <div class="book__rating--background">
                       {% for i in (1..5) %}
@@ -68,6 +71,9 @@ layout: default
                   </div>
                 </div>
                 <div class="book__rating fade-in-wrapper" title="Discussion Rating: {{book.ratings.discussion}}" data-book-rating="{{book.ratings.discussion}}">
+                  <div class="book__rating--label">
+                    Discussion
+                  </div>
                   <div class="book__rating_inner fade-in-inner">
                     <div class="book__rating--background">
                       {% for i in (1..5) %}

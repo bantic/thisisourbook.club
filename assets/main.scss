@@ -80,8 +80,10 @@ p.lead {
 }
 
 .book__rating {
+  margin-top: 0.5em;
   width: 95px;
   letter-spacing: -4px; /* helps to make sure star icons have minimal space between */
+  min-height: 50px; /* makes it so that the text doesn't jump when the book-stars load */
 
   .book__rating_inner {
     position: relative;
@@ -97,6 +99,10 @@ p.lead {
     position: absolute;
     top: 0;
     left: 0;
+  }
+  .book__rating--label {
+    letter-spacing: 0;
+    font-size: 0.8rem;
   }
 }
 
