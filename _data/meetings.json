@@ -1,11 +1,25 @@
 [
 {
+  "title": "January 2018",
+  "host": "Brian",
+  "books": [{
+    "title": "I Can't Breathe: A Killing on Bay Street",
+    "author": "Matt Taibbi",
+    "isbn": "0812988841"
+  }]
+},
+{
   "title": "December 2017",
   "host": "Dan",
+  "img": "/assets/images/meetings/caged-bird.jpg",
   "books": [{
     "title": "I Know Why The Caged Bird Sings",
     "author": "Maya Angelou",
-    "isbn": "0345514408"
+    "isbn": "0345514408",
+    "ratings": {
+      "book": "3.1",
+      "discussion": "3.6"
+    }
   }]
 },
 {
