@@ -11,10 +11,15 @@
 {
   "title": "January 2018",
   "host": "Brian",
+  "img": "/assets/images/meetings/jan-2018.jpg",
   "books": [{
     "title": "I Can't Breathe: A Killing on Bay Street",
     "author": "Matt Taibbi",
-    "isbn": "0812988841"
+    "isbn": "0812988841",
+    "ratings": {
+      "book": "3.3",
+      "discussion": "4.4"
+    }
   }]
 },
 {
