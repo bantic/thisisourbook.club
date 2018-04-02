@@ -2,10 +2,15 @@
 {
   "title": "April 2018",
   "host": "Gabe",
+  "img": "/assets/images/meetings/april-2018.jpg",
   "books": [{
     "title": "What If?: Serious Scientific Answers to Absurd Hypothetical Questions",
     "author": "Randall Munroe",
-    "isbn": "0544272994"
+    "isbn": "0544272994",
+    "ratings": {
+      "book": "3.2",
+      "discussion": "3.3"
+    }
   }]
 },
 {
