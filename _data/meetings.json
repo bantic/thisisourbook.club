@@ -1,186 +1,195 @@
-[
-{
-  "title": "April 2018",
-  "host": "Gabe",
-  "img": "/assets/images/meetings/april-2018.jpg",
-  "books": [{
-    "title": "What If?: Serious Scientific Answers to Absurd Hypothetical Questions",
-    "author": "Randall Munroe",
-    "isbn": "0544272994",
-    "ratings": {
-      "book": "3.2",
-      "discussion": "3.3"
+[{
+        "title": "July 2018",
+        "host": "Arthur",
+        "books": [{
+            "title": "Undaunted Courage: Meriwether Lewis, Thomas Jefferson, and the Opening of the American West",
+            "author": "Stephen Ambrose",
+            "isbn": "1471160785"
+        }]
+    },
+    {
+        "title": "April 2018",
+        "host": "Gabe",
+        "img": "/assets/images/meetings/april-2018.jpg",
+        "books": [{
+            "title": "What If?: Serious Scientific Answers to Absurd Hypothetical Questions",
+            "author": "Randall Munroe",
+            "isbn": "0544272994",
+            "ratings": {
+                "book": "3.2",
+                "discussion": "3.3"
+            }
+        }]
+    },
+    {
+        "title": "January 2018",
+        "host": "Brian",
+        "img": "/assets/images/meetings/jan-2018.jpg",
+        "books": [{
+            "title": "I Can't Breathe: A Killing on Bay Street",
+            "author": "Matt Taibbi",
+            "isbn": "0812988841",
+            "ratings": {
+                "book": "3.3",
+                "discussion": "4.4"
+            }
+        }]
+    },
+    {
+        "title": "December 2017",
+        "host": "Dan",
+        "img": "/assets/images/meetings/caged-bird.jpg",
+        "books": [{
+            "title": "I Know Why The Caged Bird Sings",
+            "author": "Maya Angelou",
+            "isbn": "0345514408",
+            "ratings": {
+                "book": "3.1",
+                "discussion": "3.6"
+            }
+        }]
+    },
+    {
+        "title": "October 2017",
+        "host": "Ashwin",
+        "img": "/assets/images/meetings/digital-gold.jpg",
+        "books": [{
+            "title": "Digital Gold",
+            "author": "Nathaniel Popper",
+            "isbn": "006236250X",
+            "ratings": {
+                "book": 4,
+                "discussion": 4.6
+            }
+        }]
+    },
+    {
+        "title": "August 2017",
+        "host": "Devin",
+        "img": "/assets/images/meetings/player_piano.jpg",
+        "books": [{
+            "title": "Player Piano",
+            "author": "Kurt Vonnegut",
+            "isbn": "0385333781",
+            "rating": 3.7
+        }]
+    },
+    {
+        "title": "April 2017",
+        "host": "Cory",
+        "img": "/assets/images/meetings/sellout.jpg",
+        "books": [{
+            "title": "The Sellout",
+            "author": "Paul Beatty",
+            "isbn": "1250083257",
+            "rating": 3.7
+        }]
+    }, {
+        "title": "February 2017",
+        "img": "/assets/images/meetings/prophet-and-art-of-war.jpg",
+        "host": "Gabe",
+        "books": [{
+            "title": "The Prophet",
+            "author": "Kahlil Gibran",
+            "rating": 3.16,
+            "isbn": "0394404289"
+        }, {
+            "title": "The Art of War",
+            "author": "Sun Tzu",
+            "rating": 3.16,
+            "isbn": "1599869772"
+        }]
+    }, {
+        "title": "December 2016",
+        "img": "/assets/images/meetings/20000_leagues.jpg",
+        "host": "AFZ",
+        "books": [{
+            "title": "20000 Leagues Under the Sea",
+            "author": "Jules Verne",
+            "rating": 2.83,
+            "isbn": "1512093599"
+        }]
+    }, {
+        "title": "August 2016",
+        "host": "Ashwin",
+        "img": "/assets/images/meetings/frankenstein.jpg",
+        "books": [{
+            "title": "Dr Jekyll and Mr Hyde",
+            "author": "Robert Louis Stevenson",
+            "rating": 3.33,
+            "isbn": "0486266885"
+        }, {
+            "title": "Frankenstein",
+            "author": "Mary Shelley",
+            "rating": 3,
+            "isbn": "0486282112"
+        }]
+    }, {
+        "title": "June 2016",
+        "img": "/assets/images/meetings/armada.jpg",
+        "host": "Dan",
+        "books": [{
+            "title": "Armada",
+            "author": "Ernest Cline",
+            "rating": 2.5,
+            "isbn": "0804137277"
+        }],
+        "comments": "We wished that it was Ready Player One."
+    }, {
+        "title": "April 2016",
+        "host": "Cory",
+        "books": [{
+            "title": "The Invention of Nature",
+            "author": "Andrea Wulf",
+            "rating": 2.5,
+            "isbn": "0345806298"
+        }]
+    }, {
+        "title": "March 2016",
+        "host": "Ashwin",
+        "books": [{
+            "title": "Being Mortal",
+            "author": "Atul Gawande",
+            "rating": 5,
+            "isbn": "0805095152"
+        }],
+        "comments": "The only book we've read as a group that gets a perfect score: 5s from all of us. A poignant book about end of life. \"Shit gets real\" in this one."
+    }, {
+        "title": "?",
+        "host": "DC",
+        "books": [{
+            "title": "Hard Luck Hank: Screw the Galaxy",
+            "author": "Steven Campbell ",
+            "rating": 1.83,
+            "isbn": "153530376X"
+        }],
+        "comments": "A book that we found rather hard to love, but has nevertheless been excellent fodder for inside jokes in the club. The \"Bud light of books\"."
+    }, {
+        "title": "August 2015",
+        "host": "Dan",
+        "books": [{
+            "title": "The Secret History",
+            "author": "Donna Tartt",
+            "rating": 4.33,
+            "isbn": "1400031702"
+        }]
+    }, {
+        "title": "June 2015",
+        "host": "AFZ",
+        "books": [{
+            "title": "A Canticle for Lebowitz",
+            "author": "Walter Miller Jr",
+            "rating": 3.16,
+            "isbn": "0553273817"
+        }]
+    }, {
+        "title": "April 2015",
+        "host": "Gabe",
+        "books": [{
+            "title": "The Martian Chronicles",
+            "author": "Ray Bradbury",
+            "rating": 3.83,
+            "isbn": "1451678193"
+        }]
     }
-  }]
-},
-{
-  "title": "January 2018",
-  "host": "Brian",
-  "img": "/assets/images/meetings/jan-2018.jpg",
-  "books": [{
-    "title": "I Can't Breathe: A Killing on Bay Street",
-    "author": "Matt Taibbi",
-    "isbn": "0812988841",
-    "ratings": {
-      "book": "3.3",
-      "discussion": "4.4"
-    }
-  }]
-},
-{
-  "title": "December 2017",
-  "host": "Dan",
-  "img": "/assets/images/meetings/caged-bird.jpg",
-  "books": [{
-    "title": "I Know Why The Caged Bird Sings",
-    "author": "Maya Angelou",
-    "isbn": "0345514408",
-    "ratings": {
-      "book": "3.1",
-      "discussion": "3.6"
-    }
-  }]
-},
-{
-  "title": "October 2017",
-  "host": "Ashwin",
-  "img": "/assets/images/meetings/digital-gold.jpg",
-  "books": [{
-    "title": "Digital Gold",
-    "author": "Nathaniel Popper",
-    "isbn": "006236250X",
-    "ratings": {
-      "book": 4,
-      "discussion": 4.6
-    }
-  }]
-},
-{
-  "title": "August 2017",
-  "host": "Devin",
-  "img": "/assets/images/meetings/player_piano.jpg",
-  "books": [{
-    "title": "Player Piano",
-    "author": "Kurt Vonnegut",
-    "isbn": "0385333781",
-    "rating": 3.7
-  }]
-},
-{
-  "title": "April 2017",
-  "host": "Cory",
-  "img": "/assets/images/meetings/sellout.jpg",
-  "books": [{
-    "title": "The Sellout",
-    "author": "Paul Beatty",
-    "isbn": "1250083257",
-    "rating": 3.7
-  }]
-}, {
-  "title": "February 2017",
-  "img": "/assets/images/meetings/prophet-and-art-of-war.jpg",
-  "host": "Gabe",
-  "books": [{
-    "title": "The Prophet",
-    "author": "Kahlil Gibran",
-    "rating": 3.16,
-    "isbn": "0394404289"
-  }, {
-    "title": "The Art of War",
-    "author": "Sun Tzu",
-    "rating": 3.16,
-    "isbn": "1599869772"
-  }]
-}, {
-  "title": "December 2016",
-  "img": "/assets/images/meetings/20000_leagues.jpg",
-  "host": "AFZ",
-  "books": [{
-    "title": "20000 Leagues Under the Sea",
-    "author": "Jules Verne",
-    "rating": 2.83,
-    "isbn": "1512093599"
-  }]
-}, {
-  "title": "August 2016",
-  "host": "Ashwin",
-  "img": "/assets/images/meetings/frankenstein.jpg",
-  "books": [{
-    "title": "Dr Jekyll and Mr Hyde",
-    "author": "Robert Louis Stevenson",
-    "rating": 3.33,
-    "isbn": "0486266885"
-  }, {
-    "title": "Frankenstein",
-    "author": "Mary Shelley",
-    "rating": 3,
-    "isbn": "0486282112"
-  }]
-}, {
-  "title": "June 2016",
-  "img": "/assets/images/meetings/armada.jpg",
-  "host": "Dan",
-  "books": [{
-    "title": "Armada",
-    "author": "Ernest Cline",
-    "rating": 2.5,
-    "isbn": "0804137277"
-  }],
-  "comments": "We wished that it was Ready Player One."
-}, {
-  "title": "April 2016",
-  "host": "Cory",
-  "books": [{
-    "title": "The Invention of Nature",
-    "author": "Andrea Wulf",
-    "rating": 2.5,
-    "isbn": "0345806298"
-  }]
-}, {
-  "title": "March 2016",
-  "host": "Ashwin",
-  "books": [{
-    "title": "Being Mortal",
-    "author": "Atul Gawande",
-    "rating": 5,
-    "isbn": "0805095152"
-  }],
-  "comments": "The only book we've read as a group that gets a perfect score: 5s from all of us. A poignant book about end of life. \"Shit gets real\" in this one."
-}, {
-  "title": "?",
-  "host": "DC",
-  "books": [{
-    "title": "Hard Luck Hank: Screw the Galaxy",
-    "author": "Steven Campbell ",
-    "rating": 1.83,
-    "isbn": "153530376X"
-  }],
-  "comments": "A book that we found rather hard to love, but has nevertheless been excellent fodder for inside jokes in the club. The \"Bud light of books\"."
-}, {
-  "title": "August 2015",
-  "host": "Dan",
-  "books": [{
-    "title": "The Secret History",
-    "author": "Donna Tartt",
-    "rating": 4.33,
-    "isbn": "1400031702"
-  }]
-}, {
-  "title": "June 2015",
-  "host": "AFZ",
-  "books": [{
-    "title": "A Canticle for Lebowitz",
-    "author": "Walter Miller Jr",
-    "rating": 3.16,
-    "isbn": "0553273817"
-  }]
-}, {
-  "title": "April 2015",
-  "host": "Gabe",
-  "books": [{
-    "title": "The Martian Chronicles",
-    "author": "Ray Bradbury",
-    "rating": 3.83,
-    "isbn": "1451678193"
-  }]
-}]
+]
