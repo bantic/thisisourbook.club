@@ -18,11 +18,16 @@
   {
     "title": "July 2018",
     "host": "Arthur",
+    "img": "/assets/images/meetings/undaunted-courage-july-2018.jpg",
     "books": [
       {
         "title": "Undaunted Courage: Meriwether Lewis, Thomas Jefferson, and the Opening of the American West",
         "author": "Stephen Ambrose",
-        "isbn": "1471160785"
+        "isbn": "1471160785",
+        "ratings": {
+          "book": "3.5",
+          "discussion": "4.5"
+        }
       }
     ]
   },
