@@ -2,11 +2,16 @@
   {
     "title": "December 2018",
     "host": "Cory",
+    "img": "/assets/images/meetings/2018-12-15-poker.jpg",
     "books": [
       {
         "title": "The Professor, the Banker, and the Suicide King: Inside the Richest Poker Game of All Time",
         "author": "Michael Craig",
-        "isbn": "0446694975"
+        "isbn": "0446694975",
+        "ratings": {
+          "book": "3",
+          "discussion": "3.7"
+        }
       }
     ]
   },
