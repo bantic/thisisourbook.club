@@ -1,5 +1,30 @@
 [
   {
+    "title": "February 2019",
+    "host": "Dan",
+    "img": "/assets/images/meetings/february-2019.jpg",
+    "books": [
+      {
+        "title": "The Bridge of San Luis Rey",
+        "author": "Thornton Wilder",
+        "isbn": "0060757507",
+        "ratings": {
+          "book": "2.8",
+          "discussion": "4"
+        }
+      },
+      {
+        "title": "To Each His Own",
+        "author": "Leonardo Sciascia",
+        "isbn": "0940322528",
+        "ratings": {
+          "book": "3.3",
+          "discussion": "3.7"
+        }
+      }
+    ]
+  },
+  {
     "title": "December 2018",
     "host": "Cory",
     "img": "/assets/images/meetings/2018-12-15-poker.jpg",
