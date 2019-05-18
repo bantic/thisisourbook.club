@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "meetings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "host", "books"],
+        "properties": {
+          "title": { "type": "string" },
+          "host": { "type": "string" },
+          "img": { "type": "string" },
+          "books": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["title", "author", "isbn"],
+              "properties": {
+                "title": { "type": "string" },
+                "author": { "type": "string" },
+                "isbn": { "type": "string" },
+                "ratings": {
+                  "type": "object",
+                  "properties": {
+                    "book": { "type": "number" },
+                    "discussion": { "type": "number" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
