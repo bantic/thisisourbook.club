@@ -1,8 +1,8 @@
 ---
 ---
 
-@import "bootstrap/bootstrap";
-@import "variables";
+@import 'bootstrap/bootstrap';
+@import 'variables';
 
 body {
   background-image: url(/assets/images/bg.png);
@@ -17,12 +17,20 @@ h1 {
   letter-spacing: 2px;
   color: $title-color;
   background-color: $title-bg-color;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 p.lead {
   background-color: $title-bg-color-more-opaque;
-  padding: 0.25em;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  margin-bottom: 0;
+  font-weight: 500;
+  color: $title-color;
 }
+
 @media (min-width: 576px) {
   p.lead {
     padding-left: 15%;
@@ -46,7 +54,7 @@ p.lead {
 
 .book__img {
   max-width: 50%;
-  box-shadow: 2px 2px 6px #CCC;
+  box-shadow: 2px 2px 6px #ccc;
 }
 
 .meeting__img--wrapper {
@@ -75,7 +83,7 @@ p.lead {
 
   /* added with the setupOpacityIncreasers() function */
   &.opacity-did-increase {
-    opacity: 1.0;
+    opacity: 1;
   }
 }
 
@@ -95,7 +103,8 @@ p.lead {
     height: 15px;
   }
 
-  .book__rating--background, .book__rating--foreground {
+  .book__rating--background,
+  .book__rating--foreground {
     position: absolute;
     top: 0;
     left: 0;
@@ -118,10 +127,11 @@ p.lead {
 }
 
 .card {
-  background: #EDEDED;
+  background: $card-bg-color;
+  border-width: 2px;
 
   .card-title {
     text-transform: uppercase;
-    color: #6B7072;
+    color: #6b7072;
   }
 }
