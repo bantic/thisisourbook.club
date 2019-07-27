@@ -2,6 +2,17 @@
   "$schema": "./meetings-schema.json",
   "meetings": [
     {
+      "title": "July 2019",
+      "host": "Arthur",
+      "books": [
+        {
+          "title": "The First Salute: A View of the American Revolution",
+          "author": "Barbara W. Tuchman",
+          "isbn": "1433218240"
+        }
+      ]
+    },
+    {
       "title": "April 2019",
       "host": "Gabe",
       "img": "/assets/images/meetings/april-2019-life-3-0.jpg",
