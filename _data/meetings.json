@@ -2,6 +2,10 @@
   "$schema": "./meetings-schema.json",
   "meetings": [
     {
+      "title": "September 2019",
+      "host": "Ashwin"
+    },
+    {
       "title": "July 2019",
       "host": "Arthur",
       "books": [
