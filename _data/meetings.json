@@ -8,11 +8,16 @@
     {
       "title": "July 2019",
       "host": "Arthur",
+      "img": "/assets/images/meetings/july-2019-first-salute.jpg",
       "books": [
         {
           "title": "The First Salute: A View of the American Revolution",
           "author": "Barbara W. Tuchman",
-          "isbn": "1433218240"
+          "isbn": "1433218240",
+          "ratings": {
+            "book": 2.9,
+            "discussion": 4.0
+          }
         }
       ]
     },
