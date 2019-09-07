@@ -3,7 +3,14 @@
   "meetings": [
     {
       "title": "September 2019",
-      "host": "Ashwin"
+      "host": "Ashwin",
+      "books": [
+        {
+          "title": "Turn the Ship Around!",
+          "author": "L. David Marquet",
+          "isbn": "1591846404"
+        }
+      ]
     },
     {
       "title": "July 2019",
