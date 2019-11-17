@@ -15,11 +15,16 @@
     {
       "title": "September 2019",
       "host": "Ashwin",
+      "img": "/assets/images/meetings/turn-the-ship-around.jpg",
       "books": [
         {
           "title": "Turn the Ship Around!",
           "author": "L. David Marquet",
-          "isbn": "1591846404"
+          "isbn": "1591846404",
+          "ratings": {
+            "book": 2.25,
+            "discussion": 4.33
+          }
         }
       ]
     },
