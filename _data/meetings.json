@@ -2,6 +2,17 @@
   "$schema": "./meetings-schema.json",
   "meetings": [
     {
+      "title": "November 2019",
+      "host": "Brian",
+      "books": [
+        {
+          "title": "Trick Mirror",
+          "author": "Jia Tolentino",
+          "isbn": "0525510540"
+        }
+      ]
+    },
+    {
       "title": "September 2019",
       "host": "Ashwin",
       "books": [
