@@ -3,12 +3,17 @@
   "meetings": [
     {
       "title": "November 2019",
+      "img": "/assets/images/meetings/trick-mirror.jpg",
       "host": "Brian",
       "books": [
         {
           "title": "Trick Mirror",
           "author": "Jia Tolentino",
-          "isbn": "0525510540"
+          "isbn": "0525510540",
+          "ratings": {
+            "book": 3.36,
+            "discussion": 4.64
+          }
         }
       ]
     },
