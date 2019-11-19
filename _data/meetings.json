@@ -2,6 +2,17 @@
   "$schema": "./meetings-schema.json",
   "meetings": [
     {
+      "title": "December 2019",
+      "host": "Devin",
+      "books": [
+        {
+          "title": "Holidays on Ice",
+          "author": "David Sedaris",
+          "isbn": "0316078913"
+        }
+      ]
+    },
+    {
       "title": "November 2019",
       "img": "/assets/images/meetings/trick-mirror.jpg",
       "host": "Brian",
