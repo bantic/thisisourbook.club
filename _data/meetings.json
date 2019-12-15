@@ -2,13 +2,22 @@
   "$schema": "./meetings-schema.json",
   "meetings": [
     {
+      "title": "February 2020",
+      "host": "Cory"
+    },
+    {
       "title": "December 2019",
       "host": "Devin",
+      "img": "/assets/images/meetings/holidays-on-ice.jpg",
       "books": [
         {
           "title": "Holidays on Ice",
           "author": "David Sedaris",
-          "isbn": "0316078913"
+          "isbn": "0316078913",
+          "ratings": {
+            "book": 3,
+            "discussion": 4.07
+          }
         }
       ]
     },
