@@ -20,11 +20,16 @@
     {
       "title": "February 2020",
       "host": "Cory",
+      "img": "/assets/images/meetings/feb-2020.jpg",
       "books": [
         {
           "title": "Where the Crawdads Sing",
           "author": "Delia Owens",
-          "isbn": "0735219095"
+          "isbn": "0735219095",
+          "ratings": {
+            "book": 4.2,
+            "discussion": 3.7
+          }
         }
       ]
     },
