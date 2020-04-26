@@ -2,6 +2,22 @@
   "$schema": "./meetings-schema.json",
   "meetings": [
     {
+      "title": "April 2020",
+      "host": "Ashwin",
+      "img": "/assets/images/meetings/april-2020.jpg",
+      "books": [
+        {
+          "title": "The Ninth House",
+          "author": "Leigh Bardugo",
+          "isbn": "1250313074",
+          "ratings": {
+            "book": 3.7,
+            "discussion": 3.4
+          }
+        }
+      ]
+    },
+    {
       "title": "February 2020",
       "host": "Cory",
       "books": [
