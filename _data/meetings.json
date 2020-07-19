@@ -2,6 +2,24 @@
   "$schema": "./meetings-schema.json",
   "meetings": [
     {
+      "title": "May 2020",
+      "host": "Dan",
+      "img": "/assets/images/meetings/may-2020.png",
+      "books": [
+        {
+          "title": "By Night in Chile",
+          "author": "Roberto Bolaño",
+          "isbn": "0811215474",
+          "ratings": {
+            "book": 2.25,
+            "_book": [3.5, 2, 3, 4, 1, 0],
+            "discussion": 3.58,
+            "_discussion": "4.5 + 2.5 + 4.5 + 4.5 + 2.5 + 3"
+          }
+        }
+      ]
+    },
+    {
       "title": "April 2020",
       "host": "Ashwin",
       "img": "/assets/images/meetings/april-2020.jpg",
