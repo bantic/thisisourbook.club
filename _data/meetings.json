@@ -2,6 +2,17 @@
   "$schema": "./meetings-schema.json",
   "meetings": [
     {
+      "title": "July 2020",
+      "host": "Gabe",
+      "books": [
+        {
+          "title": "The Spy and the Traitor",
+          "author": "Ben Macintyre",
+          "isbn": "1101904216"
+        }
+      ]
+    },
+    {
       "title": "May 2020",
       "host": "Dan",
       "img": "/assets/images/meetings/may-2020.png",
