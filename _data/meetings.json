@@ -2,13 +2,38 @@
   "$schema": "./meetings-schema.json",
   "meetings": [
     {
+      "title": "September 2020",
+      "host": "Arthur",
+      "img": "/assets/images/meetings/sep-2020.jpg",
+      "books": [
+        {
+          "title": "The Murder of Roger Ackroyd",
+          "author": "Agatha Christie",
+          "isbn": "0062073567",
+          "ratings": {
+            "book": 3.86,
+            "discussion": 4,
+            "_book": [4, 4, 4, 4, 4, 3, 4],
+            "_discussion": [4, 5, 2, 5, 2.5, 4.5, 5]
+          }
+        }
+      ]
+    },
+    {
       "title": "July 2020",
       "host": "Gabe",
+      "img": "/assets/images/meetings/jul-2020.jpg",
       "books": [
         {
           "title": "The Spy and the Traitor",
           "author": "Ben Macintyre",
-          "isbn": "1101904216"
+          "isbn": "1101904216",
+          "ratings": {
+            "book": 4.1,
+            "discussion": 4,
+            "_book": [4, 4.5, 3, 3.5, 4.5, 4.5, 5],
+            "_discussion": [4, 4, 4, 4, 3.5, 4.5, 4]
+          }
         }
       ]
     },
