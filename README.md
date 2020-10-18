@@ -21,6 +21,8 @@ Adjust image size to about 700x400 px
 - Use http://www.isbnsearch.org/search?s=armada to find isbns.
 - Copy the ISBN (10)
 - Add a new meeting in data/meetings.json
+- Note: Some books appear to not have 10-digit ISBN numbers. In this case you
+  should be able to use the Amazon ASIN instead
 
 ### layout
 

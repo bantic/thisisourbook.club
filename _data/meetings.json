@@ -2,6 +2,35 @@
   "$schema": "./meetings-schema.json",
   "meetings": [
     {
+      "title": "November 2020",
+      "host": "Ashwin",
+      "books": [
+        {
+          "title": "Raising a Thief",
+          "author": "Paul Podolsky",
+          "isbn": "B086T5T7LG"
+        }
+      ]
+    },
+    {
+      "title": "October 2020",
+      "host": "Brian",
+      "img": "/assets/images/meetings/oct-2020.png",
+      "books": [
+        {
+          "title": "Something Wicked This Way Comes",
+          "author": "Ray Bradbury",
+          "isbn": "1501167715",
+          "ratings": {
+            "book": 3.28,
+            "discussion": 4.57,
+            "_book": [3, 2.5, 3.5, 3, 3.5, 3.5, 4],
+            "_discussion": [3.5, 4.5, 5, 5, 4, 5, 5]
+          }
+        }
+      ]
+    },
+    {
       "title": "September 2020",
       "host": "Arthur",
       "img": "/assets/images/meetings/sep-2020.jpg",
