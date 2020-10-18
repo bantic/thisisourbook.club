@@ -23,6 +23,7 @@ Adjust image size to about 700x400 px
 - Add a new meeting in data/meetings.json
 - Note: Some books appear to not have 10-digit ISBN numbers. In this case you
   should be able to use the Amazon ASIN instead
+  More info on constructing Amazon image URLs: https://www.oreilly.com/library/view/amazon-hacks/0596005423/ch01s07.html
 
 ### layout
 
