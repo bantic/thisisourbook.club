@@ -2,13 +2,42 @@
   "$schema": "./meetings-schema.json",
   "meetings": [
     {
+      "title": "March 2021",
+      "host": "Cory"
+    },
+    {
+      "title": "January 2021",
+      "host": "Devin",
+      "img": "/assets/images/meetings/jan-2021.jpg",
+      "books": [
+        {
+          "title": "The 7 1/2 Deaths of Evelyn Hardcastle",
+          "author": "Stuart Turton",
+          "isbn": "140888951X",
+          "ratings": {
+            "book": 4.67,
+            "discussion": 4.25,
+            "_book": [5, 5, 4.5, 4.5, 4, 5],
+            "_discussion": [4, 5, 4.5, 4, 4, 4]
+          }
+        }
+      ]
+    },
+    {
       "title": "November 2020",
       "host": "Ashwin",
+      "img": "/assets/images/meetings/nov-2020.jpg",
       "books": [
         {
           "title": "Raising a Thief",
           "author": "Paul Podolsky",
-          "isbn": "B086T5T7LG"
+          "isbn": "B086T5T7LG",
+          "ratings": {
+            "book": 3,
+            "discussion": 4.86,
+            "_book": [4, 4, 4, 3, 4, 4, 4],
+            "_discussion": [5, 5, 5, 4.5, 5, 4.5, 5]
+          }
         }
       ]
     },
