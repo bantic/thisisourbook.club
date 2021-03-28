@@ -3,7 +3,21 @@
   "meetings": [
     {
       "title": "March 2021",
-      "host": "Cory"
+      "host": "Cory",
+      "img": "/assets/images/meetings/march-2021.jpg",
+      "books": [
+        {
+          "title": "A Woman of No Importance",
+          "author": "Sonia Purnell",
+          "isbn": "0735225311",
+          "ratings": {
+            "book": 3.82,
+            "discussion": 4.47,
+            "_book": [4, 3.5, 4, 4.25, 4, 3, 4],
+            "_discussion": [4.5, 5, 4.5, 4.3, 4.5, 4.5, 4]
+          }
+        }
+      ]
     },
     {
       "title": "January 2021",
