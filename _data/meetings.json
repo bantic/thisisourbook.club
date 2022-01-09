@@ -2,6 +2,24 @@
   "$schema": "./meetings-schema.json",
   "meetings": [
     {
+      "title": "January 2022",
+      "host": "Gabe",
+      "img": "/assets/images/meetings/jan-2022.jpg",
+      "books": [
+        {
+          "title": "Genghis Khan and the Making of the Modern World",
+          "author": "Jack Weatherford",
+          "isbn": "B000FCK206",
+          "ratings": {
+            "book": 3.57,
+            "discussion": 4.0,
+            "_book": [3, 3.5, 4, 3.5, 4, 3.5, 3.5],
+            "_discussion": [3.5, 4, 4, 4.5, 4, 4, 4]
+          }
+        }
+      ]
+    },
+    {
       "title": "March 2021",
       "host": "Cory",
       "img": "/assets/images/meetings/march-2021.jpg",
