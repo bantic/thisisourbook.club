@@ -2,6 +2,24 @@
   "$schema": "./meetings-schema.json",
   "meetings": [
     {
+      "title": "March 2022",
+      "host": "Devin",
+      "img": "/assets/images/meetings/mar-2022.png",
+      "books": [
+        {
+          "title": "Klara and the Sun",
+          "author": "Kazuo Ishiguro",
+          "isbn": "0593311299",
+          "ratings": {
+            "book": 3.43,
+            "discussion": 4.5,
+            "_book": [3.5, 2.5, 4.5, 4, 3.5, 3.5, 2.5],
+            "_discussion": [4.5, 4, 4.5, 5, 4.5, 5, 4]
+          }
+        }
+      ]
+    },
+    {
       "title": "January 2022",
       "host": "Gabe",
       "img": "/assets/images/meetings/jan-2022.jpg",
