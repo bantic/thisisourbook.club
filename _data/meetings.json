@@ -2,6 +2,17 @@
   "$schema": "./meetings-schema.json",
   "meetings": [
     {
+      "title": "July 2022",
+      "host": "Ashwin",
+      "books": [
+        {
+          "title": "The Puzzler",
+          "author": "A.J. Jacobs",
+          "isbn": "0593136713"
+        }
+      ]
+    },
+    {
       "title": "March 2022",
       "host": "Devin",
       "img": "/assets/images/meetings/mar-2022.png",
