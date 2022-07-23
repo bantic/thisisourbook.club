@@ -6,9 +6,15 @@
       "host": "Ashwin",
       "books": [
         {
-          "title": "The Puzzler",
+          "title": "The Puzzler: One Man's Quest to Solve the Most Baffling Puzzles Ever, from Crosswords to Jigsaws to the Meaning of Life",
           "author": "A.J. Jacobs",
-          "isbn": "0593136713"
+          "isbn": "0593136713",
+          "ratings": {
+            "book": 2.43,
+            "discussion": 3.86,
+            "_book": [3, 2, 1, 2, 5, 2, 2],
+            "_discussion": [4, 4, 4, 3.5, 5, 2.5, 4]
+          }
         }
       ]
     },
