@@ -31,6 +31,24 @@
       ]
     },
     {
+      "title": "December 2022",
+      "host": "Dan",
+      "img": "/assets/images/meetings/book-club-2022-12.jpeg",
+      "books": [
+        {
+          "title": "In Plain Sight",
+          "author": "Ross Coulthart",
+          "isbn": "1460759060",
+          "ratings": {
+            "book": 1.0,
+            "discussion": 4.2,
+            "_book": [0.5, 1.5, 1, 1, 1, 2, 0, 1],
+            "_discussion": [4.5, 4, 4, 4, 5, 4, 4]
+          }
+        }
+      ]
+    },
+    {
       "title": "July 2022",
       "host": "Ashwin",
       "books": [
