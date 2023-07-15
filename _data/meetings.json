@@ -15,11 +15,18 @@
     {
       "title": "April 2023",
       "host": "Dan",
+      "img": "/assets/images/meetings/book-club-apr-9-2023-feast-of-the-goat.png",
       "books": [
         {
           "title": "The Feast of the Goat",
           "author": "Mario Vargas Llosa",
-          "isbn": "rUjsdoAkvot78Rt"
+          "isbn": "0312420277",
+          "ratings": {
+            "book": 4.0,
+            "discussion": 3.9,
+            "_book": [4, 4.5, 4, 4, 4, 4, 4],
+            "_discussion": [3, 4.5, 4, 5, 3, 4, 4]
+          }
         }
       ]
     },
