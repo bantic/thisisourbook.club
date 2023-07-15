@@ -2,6 +2,17 @@
   "$schema": "./meetings-schema.json",
   "meetings": [
     {
+      "title": "July 2023",
+      "host": "Cory",
+      "books": [
+        {
+          "title": "Fear and Loathing in Las Vegas",
+          "author": "Hunter S. Thompson",
+          "isbn": "0679785892"
+        }
+      ]
+    },
+    {
       "title": "July 2022",
       "host": "Ashwin",
       "books": [
