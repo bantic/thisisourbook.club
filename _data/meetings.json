@@ -2,6 +2,76 @@
   "$schema": "./meetings-schema.json",
   "meetings": [
     {
+      "title": "December 2024",
+      "host": "Arthur",
+      "img": "/assets/images/meetings/2024-12-14-friday-afternoon-club.png",
+      "books": [
+        {
+          "title": "The Friday Afternoon Club: A Family Memoir",
+          "author": "Griffin Dunne",
+          "isbn": "0593652827",
+          "ratings": {
+            "book": 3.33,
+            "discussion": 4.33,
+            "_book": [5.0, 3.5, 2.5, 2.5, 3.0, 3.5],
+            "_discussion": [4.5, 5.0, 4.0, 4.5, 4.0, 4.0]
+          }
+        }
+      ]
+    },
+    {
+      "title": "September 2024",
+      "host": "unk",
+      "img": "/assets/images/meetings/2024-sep-humans.png",
+      "books": [
+        {
+          "title": "The Humans: A Novel",
+          "author": "Matt Haig",
+          "isbn": "1476730598",
+          "ratings": {
+            "book": 3.71,
+            "discussion": 4.29,
+            "_book": [2, 3.45, 4.5, 4, 3.5, 3.5, 5],
+            "_discussion": [5, 4, 4, 4.5, 4, 4.5, 4]
+          }
+        }
+      ]
+    },
+    {
+      "title": "June 2024",
+      "host": "Dan",
+      "books": [
+        {
+          "title": "Supercommunciators",
+          "author": "Charles Duhigg",
+          "isbn": "0593243919",
+          "ratings": {
+            "book": 2.86,
+            "discussion": 3.92,
+            "_book": [3.5, 3.5, 3, 2, 3, 3, 2],
+            "_discussion": [4, 4, 4, 3.5, 4, 4]
+          }
+        }
+      ]
+    },
+    {
+      "title": "February 2024",
+      "host": "unk",
+      "books": [
+        {
+          "title": "Quantum Supremacy",
+          "author": "Michio Kaku",
+          "isbn": "0593467000",
+          "ratings": {
+            "book": 2.1,
+            "discussion": 3.9,
+            "_book": [2, 2.5, 1.5, 2.5, 2],
+            "_discussion": [4, 3.5, 4, 4.5, 3.5]
+          }
+        }
+      ]
+    },
+    {
       "title": "July 2023",
       "host": "Cory",
       "books": [
