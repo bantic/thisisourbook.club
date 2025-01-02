@@ -2,6 +2,24 @@
   "$schema": "./meetings-schema.json",
   "meetings": [
     {
+      "title": "September 2024",
+      "host": "unk",
+      "img": "/assets/images/meetings/2024-sep-humans.png",
+      "books": [
+        {
+          "title": "The Humans: A Novel",
+          "author": "Matt Haig",
+          "isbn": "1476730598",
+          "ratings": {
+            "book": 3.71,
+            "discussion": 4.29,
+            "_book": [2, 3.45, 4.5, 4, 3.5, 3.5, 5],
+            "_discussion": [5, 4, 4, 4.5, 4, 4.5, 4]
+          }
+        }
+      ]
+    },
+    {
       "title": "July 2023",
       "host": "Cory",
       "books": [
