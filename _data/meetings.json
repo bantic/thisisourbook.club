@@ -38,6 +38,40 @@
       ]
     },
     {
+      "title": "June 2024",
+      "host": "Dan",
+      "books": [
+        {
+          "title": "Supercommunciators",
+          "author": "Charles Duhigg",
+          "isbn": "0593243919",
+          "ratings": {
+            "book": 2.86,
+            "discussion": 3.92,
+            "_book": [3.5, 3.5, 3, 2, 3, 3, 2],
+            "_discussion": [4, 4, 4, 3.5, 4, 4]
+          }
+        }
+      ]
+    },
+    {
+      "title": "February 2024",
+      "host": "unk",
+      "books": [
+        {
+          "title": "Quantum Supremacy",
+          "author": "Michio Kaku",
+          "isbn": "0593467000",
+          "ratings": {
+            "book": 2.1,
+            "discussion": 3.9,
+            "_book": [2, 2.5, 1.5, 2.5, 2],
+            "_discussion": [4, 3.5, 4, 4.5, 3.5]
+          }
+        }
+      ]
+    },
+    {
       "title": "July 2023",
       "host": "Cory",
       "books": [
