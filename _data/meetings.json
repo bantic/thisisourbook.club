@@ -74,6 +74,24 @@
       ]
     },
     {
+      "title": "October 2023",
+      "host": "unk",
+      "img": "/assets/images/meetings/2023-10-15-reality.png",
+      "books": [
+        {
+          "title": "Reality Is Not What It Seems: The Journey to Quantum Gravity",
+          "author": "Carlo Rovelli",
+          "isbn": "0735213933",
+          "ratings": {
+            "book": 4,
+            "discussion": 4.57,
+            "_book": [3, 4, 4, 3.5, 4, 4.5, 5],
+            "_discussion": [5, 3.5, 4, 4.5, 5, 5, 5]
+          }
+        }
+      ]
+    },
+    {
       "title": "July 2023",
       "host": "Cory",
       "img": "/assets/images/originals/2023-07-15-fear-and-loathing.png",
