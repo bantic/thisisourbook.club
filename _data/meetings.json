@@ -2,6 +2,24 @@
   "$schema": "./meetings-schema.json",
   "meetings": [
     {
+      "title": "December 2024",
+      "host": "unk",
+      "img": "/assets/images/meetings/2024-12-14-friday-afternoon-club.png",
+      "books": [
+        {
+          "title": "The Friday Afternoon Club: A Family Memoir",
+          "author": "Griffin Dunne",
+          "isbn": "0593652827",
+          "ratings": {
+            "book": 3.33,
+            "discussion": 4.33,
+            "_book": [5.0, 3.5, 2.5, 2.5, 3.0, 3.5],
+            "_discussion": [4.5, 5.0, 4.0, 4.5, 4.0, 4.0]
+          }
+        }
+      ]
+    },
+    {
       "title": "September 2024",
       "host": "unk",
       "img": "/assets/images/meetings/2024-sep-humans.png",
