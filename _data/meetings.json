@@ -4,11 +4,18 @@
     {
       "title": "July 2025",
       "host": "Gabe",
+      "img": "/assets/images/meetings/2025-07-13-abundance.png",
       "books": [
         {
           "title": "Abundance",
           "author": "Ezra Klein, Derek Thompson",
-          "isbn": "1668023482"
+          "isbn": "1668023482",
+          "ratings": {
+            "book": 3.785714286,
+            "discussion": 4.214285714,
+            "_discussion": [2.5, 5, 4.5, 4, 4, 4.5, 5],
+            "_book": [4, 3, 3.5, 4, 4, 3.5, 4.5]
+          }
         }
       ]
     },
