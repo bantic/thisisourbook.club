@@ -2,6 +2,40 @@
   "$schema": "./meetings-schema.json",
   "meetings": [
     {
+      "title": "May 2025",
+      "host": "Devin",
+      "books": [
+        {
+          "title": "Before the Coffee Gets Cold",
+          "author": "Toshikazu Kawaguchi",
+          "isbn": "1335430997",
+          "ratings": {
+            "book": 2.29,
+            "discussion": 3.78,
+            "_discussion": [2, 3.5, 3, 4, 4, 4, 4],
+            "_book": [2, 3.5, 2.5, 2.5, 1, 3.5, 1]
+          }
+        }
+      ]
+    },
+    {
+      "title": "March 2025",
+      "host": "Cory",
+      "books": [
+        {
+          "title": "Demon Copperhead",
+          "author": "Barbara Kingsolver",
+          "isbn": "8383570171",
+          "ratings": {
+            "book": 4.428571429,
+            "discussion": 4.357142857,
+            "_discussion": [4.5, 4.5, 4, 4.5, 4.5, 4, 4.5],
+            "_book": [3, 4, 3, 3, 1, 3.5, 2]
+          }
+        }
+      ]
+    },
+    {
       "title": "December 2024",
       "host": "Arthur",
       "img": "/assets/images/meetings/2024-12-14-friday-afternoon-club.png",
