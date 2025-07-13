@@ -2,6 +2,17 @@
   "$schema": "./meetings-schema.json",
   "meetings": [
     {
+      "title": "July 2025",
+      "host": "Gabe",
+      "books": [
+        {
+          "title": "Abundance",
+          "author": "Ezra Klein, Derek Thompson",
+          "isbn": "1668023482"
+        }
+      ]
+    },
+    {
       "title": "May 2025",
       "host": "Devin",
       "books": [
